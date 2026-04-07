@@ -1,6 +1,7 @@
 <?php
 $pdo = new PDO("sqlite:shop.db");
 $products = $pdo->query("SELECT * FROM products");
+$rows = $products->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!DOCTYPE html>
@@ -11,11 +12,27 @@ $products = $pdo->query("SELECT * FROM products");
 <body>
     <h1>Products</h1>
 
-    <?php while ($row = $products->fetch(PDO::FETCH_ASSOC)): ?>
-        <p><?= $row['name'] ?></p>
-    <?php endwhile; ?>
+    <?php if (!empty($rows)): ?>
+        <table border="1" cellpadding="6" cellspacing="0">
+            <tr>
+                <?php foreach (array_keys($rows[0]) as $column): ?>
+                    <th><?= htmlspecialchars($column) ?></th>
+                <?php endforeach; ?>
+            </tr>
+
+            <?php foreach ($rows as $row): ?>
+                <tr>
+                    <?php foreach ($row as $value): ?>
+                        <td><?= htmlspecialchars($value) ?></td>
+                    <?php endforeach; ?>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    <?php else: ?>
+        <p>No products found.</p>
+    <?php endif; ?>
 
     <hr>
-    <a href="/admin">Admin Page</a>
+    <a href="/adminer.php?sqlite=&username=&db=shop.db">Database Admin Page</a>
 </body>
 </html>

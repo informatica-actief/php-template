@@ -30,6 +30,9 @@ Opties voor de docent:
 ## Code uitvoeren
 Bij het starten van de Codespace wordt automatisch een PHP-webserver gestart.
 
+Als de PHP-webserver niet start:
+- Type in de terminal `php -S localhost:8080` en druk dan op de toets [Enter↵]
+
 Een browser vraagt het `index.php` bestand op bij de webserver, maakt de inhoud op en laat de opgemaakte inhoud zien.
 
 Als de browser niet automatisch opent:
