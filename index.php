@@ -33,6 +33,6 @@ $rows = $products->fetchAll(PDO::FETCH_ASSOC);
     <?php endif; ?>
 
     <hr>
-    <a href="/adminer.php?sqlite=&username=&db=shop.db">Database Admin Page</a>
+    <a href="/adminer.php?sqlite=&username=user&db=shop.db">Database Admin Page</a> (gebruik wachtwoord secret123)
 </body>
 </html>

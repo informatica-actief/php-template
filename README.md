@@ -6,7 +6,7 @@ Leerlingen kunnen hiermee de PHP projecten uit Informatica-Actief maken.
 De configuratie ondersteunt:
 - PHP
 - Sqlite (database)
-- Adminer (beheer van de database via `/admin.php` webpagina)
+- Adminer (beheer van de database via webpagina)
 
 ## Kopieer projectcode
 - De projectcode van je docent staat op een plek waar jij het niet kunt wijzigen.
@@ -28,9 +28,7 @@ Opties voor de docent:
 - Het starten van de Codespace kan enkele minuten duren. Als de Codespace gestart is, dan zie je de webversie van de editor VS Code (spreek uit als: vie-es-koot).
 
 ## Code uitvoeren
-Bij het starten van de Codespace wordt automatisch een PHP-webserver gestart.
-
-Als de PHP-webserver niet start:
+Start de PHP-webserver:
 - Type in de terminal `php -S localhost:8080` en druk dan op de toets [Enter↵]
 
 Een browser vraagt het `index.php` bestand op bij de webserver, maakt de inhoud op en laat de opgemaakte inhoud zien.
