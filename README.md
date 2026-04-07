@@ -1,11 +1,12 @@
 # HTML projecten
 Deze repository bevat een configuratie voor de Codespaces ontwikkelomgeving.
 
-Leerlingen kunnen hiermee de HTML projecten uit Informatica-Actief maken.
+Leerlingen kunnen hiermee de PHP projecten uit Informatica-Actief maken.
 
 De configuratie ondersteunt:
-- HTML, CSS en JavaScript
-- Webserver voor statische bestanden
+- PHP
+- Sqlite (database)
+- Adminer (beheer van de database via `/admin.php` webpagina)
 
 ## Kopieer projectcode
 - De projectcode van je docent staat op een plek waar jij het niet kunt wijzigen.
@@ -27,16 +28,16 @@ Opties voor de docent:
 - Het starten van de Codespace kan enkele minuten duren. Als de Codespace gestart is, dan zie je de webversie van de editor VS Code (spreek uit als: vie-es-koot).
 
 ## Code uitvoeren
-Bij het starten van de Codespace wordt automatisch een webserver gestart.
+Bij het starten van de Codespace wordt automatisch een PHP-webserver gestart.
 
-Een browser vraagt het `index.html` bestand op bij de webserver, maakt de inhoud op en laat de opgemaakte inhoud zien.
+Een browser vraagt het `index.php` bestand op bij de webserver, maakt de inhoud op en laat de opgemaakte inhoud zien.
 
 Als de browser niet automatisch opent:
 - Klik op ports, klik bij port 8080 (webserver) op "Open in Browser" (wereldbol) of "Preview in Editor" (rechts van wereldbol)<br>
 - Klik met je muis op de GUI om het toetsenbord aan je game te koppelen.
 
 ## Code aanpassen
-- Dubbelklik op een bestand dat eindigt op `.html`, `.css` of `.js`. Het bestand wordt geopend in de editor.
+- Dubbelklik op een bestand dat eindigt op `.php`. Het bestand wordt geopend in de editor.
 
 ## Wijzigingen opslaan in GitHub
 Sla je wijzigingen als volgt op in GitHub:
