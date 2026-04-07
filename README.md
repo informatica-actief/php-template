@@ -1,4 +1,4 @@
-# HTML projecten
+# PHP projecten
 Deze repository bevat een configuratie voor de Codespaces ontwikkelomgeving.
 
 Leerlingen kunnen hiermee de PHP projecten uit Informatica-Actief maken.
