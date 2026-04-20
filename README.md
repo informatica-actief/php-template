@@ -40,7 +40,6 @@ Een browser vraagt het `index.php` bestand op bij de webserver, maakt de inhoud 
 
 Als de browser niet automatisch opent:
 - Klik op ports, klik bij port 8080 (webserver) op "Open in Browser" (wereldbol) of "Preview in Editor" (rechts van wereldbol)<br>
-- Klik met je muis op de GUI om het toetsenbord aan je game te koppelen.
 
 ## Code aanpassen
 - Dubbelklik op een bestand dat eindigt op `.php`. Het bestand wordt geopend in de editor.
