@@ -33,6 +33,6 @@ $rows = $products->fetchAll(PDO::FETCH_ASSOC);
     <?php endif; ?>
 
     <hr>
-    <a href="/adminer.php?sqlite=&username=user&db=shop.db">Database Admin Page</a> (gebruik wachtwoord secret123)
+    <a href="/adminer.php?sqlite=&username=user&db=shop.db" target="_blank">Database Admin Page</a> (Open link in new tab, dus niet in de Simple Browser van VSCode, en gebruik wachtwoord secret123)
 </body>
 </html>
