@@ -10,8 +10,9 @@ Leerlingen kunnen hiermee de PHP projecten uit Informatica-Actief maken.
 
 De configuratie ondersteunt:
 - PHP
-- Sqlite (database)
-- Adminer (beheer van de database via webpagina)
+- Webserver (ingebouwd in PHP, start met `php -S localhost:8080`)
+- Database (SQLite)
+- Webbased database beheer (Adminer)
 
 ## Kopieer projectcode
 - De projectcode van je docent staat op een plek waar jij het niet kunt wijzigen.
