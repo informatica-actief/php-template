@@ -11,7 +11,7 @@
     "merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one, must be false to prevent ignoring merge ours strategy
 
     // copilot settings
-    "chat.disableAIFeatures": false, // disable all AI features, user can enable it again in the settings. 
+    "chat.disableAIFeatures": true, // disable all AI features, user can enable it again in the settings. 
     "github.copilot.enable": { // disable copilot code suggestions in editor (when copilot is enabled), we rather stick to autocomplete and use copilot chat for code snippets
         "*": false
     },
@@ -29,10 +29,10 @@
     // hide (true) or unhide (false) .* directories and files in the editor
     // edit met [shift]+[control]+[p] preferences: open workspace settings (JSON)
     "files.exclude": {
-        "**/.*": false,
+        "**/.*": true,
         "__pycache__/": true,
-        "adminer-plugins/": false,
-        "adminer-plugins.php": false,
-        "adminer.php": false
+        "adminer-plugins/": true,
+        "adminer-plugins.php": true,
+        "adminer.php": true
     },
 }
