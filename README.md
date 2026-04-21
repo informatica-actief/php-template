@@ -1,7 +1,3 @@
-# Deze repository is in ontwikkeling
-- Van proberen kun je leren ;-)
-- Maak een issue als je feedback wilt geven.
-
 # PHP projecten
 
 Deze repository bevat een configuratie voor de Codespaces ontwikkelomgeving.
