@@ -19,6 +19,7 @@
 
 	// Use 'postStartCommand' to run commands after the container is started.
 	"postStartCommand": "bash .devcontainer/postStartCommand.sh",
+	"remoteEnv": {"XDEBUG_MODE": "off"}, // disable php debugging
 	
 	// Configure tool-specific properties.
 	"customizations": {
